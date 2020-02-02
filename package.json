@@ -1,0 +1,29 @@
+{
+  "name": "zeba",
+  "version": "1.0.0",
+  "description": "A lightweight JavaScript library for validating, manipulating, and formatting strings.",
+  "main": "Zeba.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taslim-a-hussain/zeba.git"
+  },
+  "keywords": [
+    "npm",
+    "zeba",
+    "javascript",
+    "library",
+    "validating",
+    "manipulating",
+    "formatting",
+    "strings"
+  ],
+  "author": "Taslim A Hussain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taslim-a-hussain/zeba/issues"
+  },
+  "homepage": "https://github.com/taslim-a-hussain/zeba#readme"
+}
