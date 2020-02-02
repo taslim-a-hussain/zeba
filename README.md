@@ -13,9 +13,26 @@ A lightweight JavaScript library for validating, manipulating, and formatting st
 >
 > input = `new` str(input).fullTrim().capitilize();
 >
-> `console.log`(input.string);
+> `console.log`(input.`string`);
 #### _Outcome:_
 This is the input.
 
 ____
 
+#### API
+##### Methods:
+* `capitilize()`
+    * Example: this is the text -> This is the text.
+* `upper()`
+    * from: this is the text -> This Is The Text.
+* `allupper()`
+    * from: this is the text -> THIS IS THE TEXT.
+* `fullTrim()`
+    * fully trims the string from front, back and in betweens.
+    > `let` text = `'  this is     the text.'`;
+    >
+    > text = `new` str(text).`fullTrim`();
+    >
+    > `console.log`(text.`string`);
+    * outputs:
+    `this is the text.`
