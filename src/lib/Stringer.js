@@ -1,4 +1,4 @@
-class Zeba {
+class Stringer {
 
     constructor(str) {
         this.string = str;
@@ -40,4 +40,4 @@ class Zeba {
 
 
 
-module.exports = Zeba;
+module.exports = Stringer;

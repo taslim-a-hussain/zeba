@@ -1,11 +1,11 @@
 {
   "name": "zeba",
-  "version": "1.1.3",
+  "version": "1.2.3",
   "description": "A lightweight JavaScript library for validating, manipulating, and formatting strings.",
-  "main": "src/Zeba.js",
+  "main": "src/zeba.js",
   "scripts": {
-    "dev": "parcel src/Zeba.js --out-file zeba.js",
-    "build": "parcel build src/Zeba.js --out-file zeba.min.js"
+    "dev": "parcel src/zeba.js --out-file zeba.js",
+    "build": "parcel build src/zeba.js --out-file zeba.min.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,12 @@
     "manipulating",
     "formatting",
     "strings"
+  ],
+  "files": [
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "dist/"
   ],
   "author": "Taslim A Hussain",
   "license": "MIT",
