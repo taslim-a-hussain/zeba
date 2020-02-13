@@ -5,13 +5,13 @@ A lightweight JavaScript library for validating, manipulating, and formatting st
 > npm i zeba
 
 ### Require:
-> `const` str = `require`(`'zeba'`);
+> `const` zeba = `require`(`'zeba'`);
 
 ### How to use:
 #### _Example:_
 > `let` input = '&nbsp;&nbsp;&nbsp;&nbsp;this&nbsp;&nbsp;&nbsp; is the&nbsp;&nbsp;&nbsp;&nbsp; input.';
 >
-> input = `new` str(input).fullTrim().capitilize();
+> input = `new` zeba(input).fullTrim().capitilize();
 >
 > `console.log`(input.`string`);
 #### _Outcome:_
@@ -31,7 +31,7 @@ ____
     * fully trims the string from front, back and in betweens.
     > `let` text = `'  this is     the text.'`;
     >
-    > text = `new` str(text).`fullTrim`();
+    > text = `new` zeba(text).`fullTrim`();
     >
     > `console.log`(text.`string`);
     * outputs:
