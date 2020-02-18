@@ -2,10 +2,11 @@
   "name": "zeba",
   "version": "1.2.7",
   "description": "A lightweight JavaScript library for validating, manipulating, and formatting strings.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+
   "scripts": {
-    "dev": "parcel src/zeba.js --out-file zeba.js",
-    "build": "parcel build src/zeba.js --out-file zeba.min.js"
+    "start": "tsc"
   },
   "repository": {
     "type": "git",
@@ -25,7 +26,6 @@
     "LICENSE",
     "package.json",
     "README.md",
-    "index.js",
     "dist/"
   ],
   "author": "Taslim A Hussain",
@@ -34,8 +34,10 @@
     "url": "https://github.com/taslim-a-hussain/zeba/issues"
   },
   "homepage": "https://github.com/taslim-a-hussain/zeba#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@types/node": "^13.7.1"
+  },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "typescript": "^3.7.5"
   }
 }
