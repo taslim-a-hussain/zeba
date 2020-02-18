@@ -1,6 +1,6 @@
 {
   "name": "zeba",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A lightweight JavaScript library for validating, manipulating, and formatting strings.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
