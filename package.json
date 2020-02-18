@@ -1,10 +1,9 @@
 {
   "name": "zeba",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A lightweight JavaScript library for validating, manipulating, and formatting strings.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-
   "scripts": {
     "start": "tsc"
   },
@@ -26,7 +25,8 @@
     "LICENSE",
     "package.json",
     "README.md",
-    "dist/"
+    "dist/index.js",
+    "dist/index.d.ts"
   ],
   "author": "Taslim A Hussain",
   "license": "MIT",
@@ -34,10 +34,6 @@
     "url": "https://github.com/taslim-a-hussain/zeba/issues"
   },
   "homepage": "https://github.com/taslim-a-hussain/zeba#readme",
-  "dependencies": {
-    "@types/node": "^13.7.1"
-  },
-  "devDependencies": {
-    "typescript": "^3.7.5"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
