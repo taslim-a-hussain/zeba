@@ -32,7 +32,7 @@ ____
     * from: this is the text -> THIS IS THE TEXT.
 * `fullTrim()`
     * fully trims the string from front, back and in betweens.
-    > `let text = '`  this is     the text.`'; `
+    > `let text = '` &nbsp;&nbsp;this&nbsp;&nbsp; is&nbsp;&nbsp;&nbsp;the text.&nbsp;&nbsp;`'; `
     >
     > `text = zeba(text).fullTrim().value();`
     >
