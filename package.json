@@ -1,6 +1,6 @@
 {
   "name": "zeba",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "A very lightweight JavaScript library for taking out extra spaces in a string, can make first letter of a string, first letter of each words in a string or all letters in a string to uppercase.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -34,6 +34,5 @@
     "url": "https://github.com/taslim-a-hussain/zeba/issues"
   },
   "homepage": "https://github.com/taslim-a-hussain/zeba#readme",
-  "dependencies": {},
   "devDependencies": {}
 }
