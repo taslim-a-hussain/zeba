@@ -8,7 +8,7 @@
 
 
 # Zeba
-A very lightweight JavaScript library for taking out extra spaces in a string, can make first letter of a string, first letter of each words in a string or all letters in a string to uppercase.
+A very lightweight JavaScript library for taking out extra spaces in a string.
 
 ## Install:
 `npm i zeba`
